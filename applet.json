@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "id": "linspectacles-display-server",
+  "name": "Display Server",
+  "version": "0.0.6",
+  "author": "brunonlinespace",
+  "editor": "brunonlinespace",
+  "publisher": "brunonlinespace",
+  "organization_id": "linspectacles",
+  "organization_name": "LinSpectacles",
+  "organization_url": "https://github.com/linspectacles/",
+  "repository": "https://github.com/linspectacles/display-server",
+  "entrypoint": "display_server/applet.py",
+  "factory": "create_applet",
+  "standalone": "standalone.py",
+  "description": "Read-only on-demand graphical session inspection of Wayland/X11, display stack, reported outputs, modes and protocols.",
+  "platforms": [
+    "linux"
+  ],
+  "read_only": true
+}
