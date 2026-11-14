@@ -8,7 +8,6 @@ Current release: **0.0.6**
 
 Repository: <https://github.com/linspectacles/display-server>
 
-
 <p align="center">
   <a href="https://github.com/brunonlinespace/brunonlinespace/blob/main/linspectacles/display-server.png">
     <img
@@ -18,6 +17,7 @@ Repository: <https://github.com/linspectacles/display-server>
     >
   </a>
 </p>
+
 ## What Display Server Inspector is
 
 Display Server Inspector answers a focused question: **what does the current graphical session report about its display stack, outputs, modes and exposed protocols?**
@@ -163,11 +163,6 @@ linspectacles_display_server/
     ├── _support.py
     ├── README.md
     ├── QA.md
-    ├── tests/
-    │   ├── test_audit_regressions.py
-    │   ├── test_collectors.py
-    │   ├── test_release_contract.py
-    │   └── test_view_placement.py
     └── icon.png
 ```
 
